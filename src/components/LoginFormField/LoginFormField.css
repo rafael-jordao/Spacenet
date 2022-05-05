@@ -1,0 +1,90 @@
+:root {
+    --main-color: #00ADB5;
+    --dark-color: #222831;
+    --grey-color: #393E46;
+    --off-white-color: #EEEEEE;
+}
+
+.Login {
+    padding-top: 10rem;
+}
+
+form {
+    background-color: var(--main-color);
+
+
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 3rem;
+    border-radius: 30px;
+}
+
+h3 {
+    color: var(--off-white-color);
+    padding-bottom: 1rem;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    width: 90%;
+}
+
+.mainButton{
+    background-color: var(--dark-color);
+    padding: 0.8rem;
+    cursor: pointer;
+    color: var(--off-white-color);
+    border-radius: 30px;
+    border: none;
+    width: 60%;
+    max-width: 300px;
+    margin-top: 0.5rem;
+    transition: 0.3s;
+}
+
+.mainButton:hover {
+    transform: scale(105%);
+}
+
+.links {
+    padding-top: 1rem;
+    margin: 0 auto;
+    display: flex;
+    max-width: 100%;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.link {
+    font-size: 0.7em;
+    text-decoration: none;
+    color: var(--off-white-color);
+    opacity: 0.7;
+    transition: 0.3s;
+    gap: 1rem;
+}
+
+.link:hover {
+    opacity: 1;
+}
+
+.logoIcon {
+    padding-top: 4rem;
+}
+
+
+@media (max-width:400px) {
+
+
+    .links {
+        display: block;
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width:320px) {
+    
+}

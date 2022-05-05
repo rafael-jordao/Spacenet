@@ -1,0 +1,26 @@
+/* :root {
+    --main-color: #00ADB5;
+    --dark-color: #222831;
+    --grey-color: #393E46;
+    --off-white-color: #EEEEEE;
+}
+
+
+
+ */
+
+ .navBar{
+     display: none;
+ }
+
+
+@media (max-width:992px) {
+    .navBar{
+        display: contents;
+    }
+}
+@media (max-width:768px) {
+    .brand{
+        width: 150px;
+    }
+}
