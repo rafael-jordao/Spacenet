@@ -2,10 +2,6 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+Rode o comando npm install para instalar as dependências do projeto
 
-## Histórico de versões
 
-### [0.1.0] - 23/04/2022
-#### Adicionado
-- Adicionado index.html ...
