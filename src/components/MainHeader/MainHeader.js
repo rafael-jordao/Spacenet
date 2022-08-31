@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-import SpacenetMinorLogo from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/SpacenetMinorLogo.svg"
-import '/Users/rafaeljordao/Documents/my-codes/Intranet/src/components/MainHeader/MainHeader.css'
+import SpacenetMinorLogo from "../../assets/SpacenetMinorLogo.svg"
+import '../MainHeader/MainHeader.css'
 
 const MainHeader = () => {
 

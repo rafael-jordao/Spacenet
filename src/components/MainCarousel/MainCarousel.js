@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-import CaroselImage from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/newsPage2.svg"
-import "/Users/rafaeljordao/Documents/my-codes/Intranet/src/components/MainCarousel/MainCarousel.css"
-import SecondCarouselImage from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/secondCarouselImage.png"
+import CaroselImage from "../../assets/newsPage2.svg"
+import "../MainCarousel/MainCarousel.css"
+import SecondCarouselImage from "../../assets/secondCarouselImage.png"
 
 const MainCarousel = () => {
 

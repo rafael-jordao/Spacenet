@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/rafaeljordao/Documents/my-codes/Intranet/src/components/UserAvatar/UserAvatar.css"
+import "../../components/UserAvatar/UserAvatar.css"
 
 const UserAvatar = ({userName, userWork, userPhoto}) => {
     return (

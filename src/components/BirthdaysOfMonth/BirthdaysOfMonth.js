@@ -1,6 +1,6 @@
 import React from "react";
 import UserAvatar from "../UserAvatar/UserAvatar";
-import "/Users/rafaeljordao/Documents/my-codes/Intranet/src/components/BirthdaysOfMonth/BirthdaysOfMonth.css"
+import "../BirthdaysOfMonth/BirthdaysOfMonth.css"
 
 const BirthdaysOfMonth = () => {
     return (

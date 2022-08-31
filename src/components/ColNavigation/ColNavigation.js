@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/rafaeljordao/Documents/my-codes/Intranet/src/components/ColNavigation/ColNavigation.css"
+import "../ColNavigation/ColNavigation.css"
 
 const ColNavigation = () => {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/rafaeljordao/Documents/my-codes/Intranet/src/components/CompanySector/CompanySector.css"
+import "../CompanySector/CompanySector.css"
 
 const CompanySector = ({image, title, paragraph}) => {
 

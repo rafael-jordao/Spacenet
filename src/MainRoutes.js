@@ -5,8 +5,7 @@ import HomePage from "./Pages/HomePage.js"
 import IntranetNews from "./Pages/IntranetNews.js";
 
 const MainRoutes = () => {
-    
-    
+
     return (
         <Routes>
             <Route path="/homepage" element={<HomePage />}></Route>

@@ -4,10 +4,10 @@ import MainCarousel from "../components/MainCarousel/MainCarousel";
 import ColNavigation from "../components/ColNavigation/ColNavigation";
 import CompanySector from "../components/CompanySector/CompanySector";
 import BirthdaysOfMonth from "../components/BirthdaysOfMonth/BirthdaysOfMonth";
-import techPhoto from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/techPhoto.png"
-import humanResources from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/humanResources.png"
-import countabilitePhoto from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/countabilitePhoto.png"
-import SpaceNetLogo from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/SpacenetMinorLogo.svg"
+import techPhoto from "../assets/techPhoto.png"
+import humanResources from "../assets/humanResources.png"
+import countabilitePhoto from "../assets/countabilitePhoto.png"
+import SpaceNetLogo from "../assets/SpacenetMinorLogo.svg"
 
 
 

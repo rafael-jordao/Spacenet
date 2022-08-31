@@ -1,12 +1,12 @@
-import React, { useState, version } from 'react';
+import React, { useState } from 'react';
 
 import { useNavigate } from 'react-router-dom';
-import SpacenetMinorLogo from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/SpacenetMinorLogo.svg"
-import '/Users/rafaeljordao/Documents/my-codes/Intranet/src/components/LoginFormField/LoginFormField.css'
+import SpacenetMinorLogo from "../../assets/SpacenetMinorLogo.svg"
+import '../../components/LoginFormField/LoginFormField.css'
 // import UsersService from '../../services/Users';
 // import GetAllUsers from '../../services/Users';
 
-import VerifyUser from '../../services/Users';
+
 
 
 const LoginFormField = () => {
@@ -15,8 +15,7 @@ const LoginFormField = () => {
   const [login, setLogin] = useState('')
   const [password, setPassword] = useState('')
 
- 
-  
+
   // Tranformando o User em um objeto com suas propriedades para salvar no localStorage
   // Creating the user object with his own propertys to save in localStorage
   const user = {
@@ -43,8 +42,6 @@ const LoginFormField = () => {
     //useNavigate here
     navigate('/homepage')
    
-
-
     localStorage.setItem('userData', JSON.stringify(user))
   }
 

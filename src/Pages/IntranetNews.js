@@ -1,9 +1,9 @@
 import React from "react";
 import MainHeader from "../components/MainHeader/MainHeader";
 import ColNavigation from "../components/ColNavigation/ColNavigation";
-import MainNewsPhoto from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/israel-andrade-YI_9SivVt_s-unsplash 1.png";
+import MainNewsPhoto from "../assets/israel-andrade-YI_9SivVt_s-unsplash 1.png";
 import BirthdaysOfMonth from "../components/BirthdaysOfMonth/BirthdaysOfMonth";
-import SpaceNetLogo from "/Users/rafaeljordao/Documents/my-codes/Intranet/src/assets/SpacenetMinorLogo.svg"
+import SpaceNetLogo from "../assets/SpacenetMinorLogo.svg"
 
 const IntranetNews = () => {
     return (
